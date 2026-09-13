@@ -63,3 +63,109 @@ import requests
 from elevenlabs.client import ElevenLabs
 from elevenlabs.play import play
 from groq import Groq
+
+📁 Project Structure
+JARVIS-AI-Assistant/
+│
+├── main.py
+│
+├── music_library.py
+│
+├── requirements.txt
+│
+├── README.md
+│
+├── .gitignore
+│
+└── .env
+
+🔄 Program Flow
+                 🚀 START
+                    │
+                    ▼
+          Initialize JARVIS
+                    │
+                    ▼
+        Initialize APIs & Modules
+                    │
+                    ▼
+          Start Microphone
+                    │
+                    ▼
+        Listen for "Jarvis"
+                    │
+                    ▼
+       Is "Jarvis" detected?
+              /          \
+            No            Yes
+            │              │
+            │              ▼
+            │         "Yes Boss"
+            │              │
+            │              ▼
+            │      Listen for Command
+            │              │
+            │              ▼
+            │      Process Command
+            │              │
+            │      ┌───────┼────────┐
+            │      │       │        │
+            │      ▼       ▼        ▼
+            │    Website  Music    News
+            │      │       │        │
+            │      └───────┼────────┘
+            │              │
+            │              ▼
+            │       Unknown Command
+            │              │
+            │              ▼
+            │           Groq AI
+            │              │
+            │              ▼
+            │         AI Response
+            │              │
+            │              ▼
+            │         ElevenLabs
+            │              │
+            │              ▼
+            │        🔊 Voice Output
+            │              │
+            └──────────────┘
+                    │
+                    ▼
+              Listen Again
+
+🧩 Command Processing
+              🎤 User Voice
+                    │
+                    ▼
+          Speech Recognition
+                    │
+                    ▼
+              Text Command
+                    │
+                    ▼
+          processcommand()
+                    │
+       ┌────────────┼────────────┐
+       │            │            │
+       ▼            ▼            ▼
+    Website       Music         News
+       │            │            │
+       └────────────┼────────────┘
+                    │
+                    ▼
+             Other Command
+                    │
+                    ▼
+                 Groq AI
+                    │
+                    ▼
+              AI Response
+                    │
+                    ▼
+              ElevenLabs
+                    │
+                    ▼
+              🔊 Voice Output
+
