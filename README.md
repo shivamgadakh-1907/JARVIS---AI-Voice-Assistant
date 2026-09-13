@@ -50,7 +50,7 @@ This project helped me understand how Python can be integrated with **AI, APIs, 
 | Time | Timing-related operations |
 
 ---
-📁 Project Structure
+## 📁 Project Structure
 JARVIS-AI-Assistant/
 │
 ├── main.py
@@ -64,8 +64,8 @@ JARVIS-AI-Assistant/
 ├── .gitignore
 │
 └── .env
-
-🔄 Program Flow
+---
+## 🔄 Program Flow
                  🚀 START
                     │
                     ▼
@@ -120,8 +120,8 @@ JARVIS-AI-Assistant/
                     │
                     ▼
               Listen Again
-
-🧩 Command Processing
+---
+## 🧩 Command Processing
               🎤 User Voice
                     │
                     ▼
@@ -154,7 +154,7 @@ JARVIS-AI-Assistant/
                     │
                     ▼
               🔊 Voice Output
-
+---
 
 ## 📦 Python Modules Used
 
