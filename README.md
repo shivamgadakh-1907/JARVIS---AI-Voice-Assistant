@@ -50,20 +50,6 @@ This project helped me understand how Python can be integrated with **AI, APIs, 
 | Time | Timing-related operations |
 
 ---
-
-## 📦 Python Modules Used
-
-```python
-import speech_recognition as sr
-import webbrowser
-import pyttsx3
-import time
-import music_library
-import requests
-from elevenlabs.client import ElevenLabs
-from elevenlabs.play import play
-from groq import Groq
-
 📁 Project Structure
 JARVIS-AI-Assistant/
 │
@@ -168,4 +154,20 @@ JARVIS-AI-Assistant/
                     │
                     ▼
               🔊 Voice Output
+
+
+## 📦 Python Modules Used
+
+```python
+import speech_recognition as sr
+import webbrowser
+import pyttsx3
+import time
+import music_library
+import requests
+from elevenlabs.client import ElevenLabs
+from elevenlabs.play import play
+from groq import Groq
+
+
 
