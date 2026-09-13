@@ -1,0 +1,6 @@
+SpeechRecognition
+PyAudio
+requests
+elevenlabs
+groq
+pyttsx3
