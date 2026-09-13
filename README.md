@@ -51,19 +51,19 @@ This project helped me understand how Python can be integrated with **AI, APIs, 
 
 ---
 ## 📁 Project Structure
-JARVIS-AI-Assistant/
-│
-├── main.py
-│
-├── music_library.py
-│
-├── requirements.txt
-│
-├── README.md
-│
-├── .gitignore
-│
-└── .env
+      JARVIS-AI-Assistant/
+      │
+      ├── main.py
+      │
+      ├── music_library.py
+      │
+      ├── requirements.txt
+      │
+      ├── README.md
+      │
+      ├── .gitignore
+      │
+      └── .env
 ---
 ## 🔄 Program Flow
                  🚀 START
